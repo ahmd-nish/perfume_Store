@@ -7,7 +7,6 @@ import csv
 import shopify
 import logging
 import io
-from dotenv import load_dotenv
 import os
 
 # --------------------------
@@ -15,7 +14,9 @@ import os
 # --------------------------
 
 
-load_dotenv()
+print("SHOP_URL:", os.getenv("SHOP_URL"))
+print("API_VERSION:", os.getenv("API_VERSION"))
+print("API_TOKEN:", os.getenv("API_TOKEN"))
 
 SHOP_URL = os.getenv("SHOP_URL")
 API_VERSION = os.getenv("API_VERSION")
