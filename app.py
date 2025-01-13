@@ -21,7 +21,7 @@ SHOP_URL = os.getenv("SHOP_URL")
 API_VERSION = os.getenv("API_VERSION")
 API_TOKEN = os.getenv("API_TOKEN")
 # Configure logging
-logging.basicConfig(filename='upload_log_with_status.txt', level=logging.INFO)
+logging.basicConfig(filename='upload_log.txt', level=logging.INFO)
 
 # ----------------------------------
 # Helper Functions for Scraping
